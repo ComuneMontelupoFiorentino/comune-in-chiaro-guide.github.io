@@ -1,0 +1,54 @@
+title: Comune in Chiaro – Guida
+description: Guida all'uso, all'installazione e alla configurazione di Comune in Chiaro
+lang: it
+baseurl: "/comune-in-chiaro-guide.github.io"
+url: "https://comunemontelupofiorentino.github.io"
+
+remote_theme: just-the-docs/just-the-docs@v0.10.1
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+color_scheme: light
+search_enabled: true
+search:
+  heading_level: 3
+  button: true
+heading_anchors: true
+back_to_top: true
+back_to_top_text: "Torna su"
+
+aux_links:
+  "Codice su GitHub": "https://github.com/ComuneMontelupoFiorentino/comune-in-chiaro"
+aux_links_new_tab: true
+
+gh_edit_link: true
+gh_edit_link_text: "Modifica questa pagina su GitHub"
+gh_edit_repository: "https://github.com/ComuneMontelupoFiorentino/comune-in-chiaro-guide.github.io"
+gh_edit_branch: "main"
+gh_edit_view_mode: "tree"
+
+footer_content: "Guida a <a href=\"https://github.com/ComuneMontelupoFiorentino/comune-in-chiaro\">Comune in Chiaro</a> – Comune di Montelupo Fiorentino. Contenuti CC-BY 4.0, codice AGPL-3.0."
+
+callouts:
+  nota:
+    title: Nota
+    color: blue
+  attenzione:
+    title: Attenzione
+    color: yellow
+  importante:
+    title: Importante
+    color: red
+  suggerimento:
+    title: Suggerimento
+    color: green
+
+mermaid:
+  version: "10.9.1"
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
